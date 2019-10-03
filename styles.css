@@ -1,0 +1,123 @@
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  height: 75px;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: green;
+  font-size: 2vh;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  /* font-size: 17px; */
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+.sect-3{
+    height: 97vh;
+}
+
+.sect-1{
+    background-image: url("https://blog.dupontregistry.com/wp-content/uploads/2019/06/28972.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97vh;
+    text-align: center;
+    color:greenyellow;
+    font-weight: bold;
+}
+.sect-2{
+    height: 45vh;
+    font-size: 4vh;
+    text-align: center;
+}
+
+
+.home{
+    padding-top: 15%;
+    font-size: 3vh
+}
+* {
+    box-sizing: border-box;
+  }
+  input{
+      width: 25%;
+      height: 25px;;
+  }
+  footer{
+      text-align: center;
+      padding-top: 25px;
+  }
+  .button {
+    padding: 10px 35px;
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid;
+    
+  }
+  .form{
+      margin-top: 5%;
+      text-align: center;
+  }
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .sect-4{
+        height: 35vh;
+       
+}
+ footer{ 
+  position: relative;
+  background-color: black;      
+
+  display: inline;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:black;
+  color: white;
+  text-align: center;
+ }       
+   
